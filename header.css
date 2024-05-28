@@ -1,0 +1,88 @@
+/* header section */
+.header-container{
+    background-image: url(./assests/media/background\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+#right-icon-bar{
+    width: 175.8px;
+    text-align: right;
+}
+.head-content{
+    font-size: 26px;
+    text-align: center;
+}
+.nav{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 36px;
+}
+#title{
+    margin: 40px 0;
+    font-size: 152px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+.banner-desc{
+    margin: 40px 0;
+    font-weight: bolder;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+/* banner-profile-container section */
+.banner-profile-container{
+    border-top: 1px solid var(--font-primary-color);
+    border-bottom: 1px solid var(--font-primary-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.checkicon-set{
+    display: flex;
+    flex-direction: row;
+}
+.checkhero-container{
+    border-bottom: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-bottom: 50px;
+}
+.checkicon-set h1{
+    text-transform: uppercase;
+    font-size: 2.1rem;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+#heroicon-arrow{
+    width: 32px;
+    padding-top: 5px;
+}
+.profile-submit{
+    width: 40%;
+}
+.profile-submit img{
+    height: 100%;
+    width: 100%;
+}
+
+/* calculating-container section */
+.calculating-container{
+    width: 100%;
+}
+.counting-container{
+    display: flex;
+    justify-content: space-between;
+    width: 97%;
+}
+.follower{
+   font-size: 7rem;
+}
+.text-project{
+    font-size: 25px;
+    padding-top: 10px;
+}
+

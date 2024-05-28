@@ -1,0 +1,16 @@
+.main-container{
+    background-image: url(./assests/media/background\ 2.png);
+    margin-top: 25px;
+    padding-top: 40px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+.blog-head h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.design-profile-submit{
+    display: flex;
+    justify-content: space-between;
+}
