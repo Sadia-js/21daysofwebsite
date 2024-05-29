@@ -10,14 +10,11 @@
     padding: 0;
     font-family: "Antonio", sans-serif;
     font-weight: 400;
-    color: var(--font-primary-color);
     box-sizing: border-box;
 }
 
 .container{
     background-color: var(--background-color);
-}
-
-.header-container, .main-container{
+    color: var(--font-primary-color);
     padding: 0 40px;
 }

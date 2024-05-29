@@ -1,16 +1,105 @@
 .main-container{
-    background-image: url(./assests/media/background\ 2.png);
-    margin-top: 25px;
-    padding-top: 40px;
-    border-top: 1px solid;
-    border-bottom: 1px solid;
+    margin-top: 40px;
+    border-top: 1px solid var(--font-primary-color);
+    border-bottom: 1px solid var(--font-primary-color);
 }
-.blog-head h1{
+.section-title{
+    padding-top: 85px;
     font-size: 40px;
     text-transform: uppercase;
-    margin-bottom: 40px;
 }
+.expertise-content{
+    background-image: url(./assests/media/background\ 2.png);
+    background-repeat: no-repeat;
+    background-position: top bottom;
+    border: 3px solid white;
+}
+
 .design-profile-submit{
+    padding-top: 40px;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0 200px;
+}
+.design-profile-submit img{
+    width: 100%;
+    padding-bottom: 80px;
+}
+
+/* projects starts here */
+.my-projects{
+    border: 3px solid white;
+}
+.projects-profile-submit{
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.projects-profile-submit img{
+    width: 100%;
+}
+.projects-button{
+    display: flex;
+    justify-content: center;
+}
+.projects-button button{
+    padding: 15px 50px;
+    background-color: var(--background-color);
+    color: var(--font-primary-color);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid white;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+/* projects ends here */
+
+/* blog starts here */
+.blogs-all-sections{
     display: flex;
     justify-content: space-between;
+  
 }
+.blogs-pictures img{
+    width: 100%;
+}
+.tag{
+    background-color: var( --font-primary-color);
+    border-radius: 50px;
+    width: fit-content;
+    padding: 17px 30px;
+    margin: 30px 0;
+}
+.tag h1{
+    color: black;
+}
+.date-time{
+    display: flex;
+    gap: 20px;
+}
+.bullet1{
+    width: 15px;
+    height: 15px;
+    background-color: blueviolet;
+    border-radius: 100%;
+}
+.date{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+}
+.bullet2{
+    width: 15px;
+    height: 15px;
+    background-color: blue;
+    border-radius: 100%;
+}
+.logo-title{
+    margin: 30px 0;
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+/* blog ends here */
