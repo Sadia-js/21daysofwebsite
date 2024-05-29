@@ -12,7 +12,6 @@
     background-image: url(./assests/media/background\ 2.png);
     background-repeat: no-repeat;
     background-position: top bottom;
-    border: 3px solid white;
 }
 
 .design-profile-submit{
@@ -27,14 +26,11 @@
 }
 
 /* projects starts here */
-.my-projects{
-    border: 3px solid white;
-}
 .projects-profile-submit{
     padding-top: 40px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 35px;
 }
 .projects-profile-submit img{
     width: 100%;
@@ -59,6 +55,7 @@
 .blogs-all-sections{
     display: flex;
     justify-content: space-between;
+    gap: 25px;
   
 }
 .blogs-pictures img{

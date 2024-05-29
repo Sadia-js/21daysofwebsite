@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     background-position: center top;
 }
-#right-icon-bar{
+.right-icon-bar{
     width: 175.8px;
     text-align: right;
 }
@@ -19,17 +19,16 @@
     gap: 20px;
     font-size: 36px;
 }
-#title{
+.banner-title h1{
     margin: 40px 0;
-    font-size: 152px;
+    font-size: 108px;
     font-weight: bolder;
-    letter-spacing: 5px;
 }
 .banner-desc{
     margin: 40px 0;
     font-weight: bolder;
     padding-top: 30px;
-    font-size: 23px;
+    font-size: 15px;
 }
 
 /* banner-profile-container section */

@@ -16,5 +16,10 @@
 .container{
     background-color: var(--background-color);
     color: var(--font-primary-color);
-    padding: 0 40px;
+    /* max-width: 1834px;
+    margin: 0 auto; */
+}
+
+.header-container, .expertise-content, .my-projects, .my-blogs-content{
+padding: 0 40px;
 }
