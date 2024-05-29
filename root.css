@@ -16,8 +16,7 @@
 .container{
     background-color: var(--background-color);
     color: var(--font-primary-color);
-    /* max-width: 1834px;
-    margin: 0 auto; */
+    margin: 0 auto;
 }
 
 .header-container, .expertise-content, .my-projects, .my-blogs-content{

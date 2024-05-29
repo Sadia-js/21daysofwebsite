@@ -61,11 +61,10 @@
     padding-top: 5px;
 }
 .profile-submit{
-    width: 40%;
+    height: 300px;
 }
 .profile-submit img{
     height: 100%;
-    width: 100%;
 }
 
 /* calculating-container section */
@@ -85,3 +84,44 @@
     padding-top: 10px;
 }
 
+@media only screen and (min-width: 200px) and (max-width: 576px){
+    .container{
+        padding: 0 5px;
+    }
+    .nav h3{
+       font-size: 16px;
+    }
+    .right-icon-bar {
+        width: 40px;
+        height: 40px;
+        background-color: black;
+    }
+    .banner-title h1{
+       font-size: 35px;
+       margin: 30px 0;
+    }
+    .banner-desc{
+       font-size: 10px;
+       padding: 0;
+    }
+    .counting-container{
+       flex-direction: column;
+   }
+   .banner-profile-container{
+    display: flex;
+    flex-direction: column;
+   }
+   .checkicon-set h1{
+    font-size: 1.7rem;
+   }
+   .profile-submit{
+    width: 80%;
+    height: 150px;
+    }
+    .follower{
+        font-size: 3rem;
+    }
+    .text-project {
+        font-size: 18px;
+    }
+ }

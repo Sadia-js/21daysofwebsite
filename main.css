@@ -4,10 +4,12 @@
     border-bottom: 1px solid var(--font-primary-color);
 }
 .section-title{
-    padding-top: 85px;
+    padding-top: 50px;
     font-size: 40px;
     text-transform: uppercase;
 }
+
+/* projects starts here */
 .expertise-content{
     background-image: url(./assests/media/background\ 2.png);
     background-repeat: no-repeat;
@@ -22,8 +24,9 @@
 }
 .design-profile-submit img{
     width: 100%;
-    padding-bottom: 80px;
+    padding-bottom: 60px;
 }
+/* my-expertise ends here */
 
 /* projects starts here */
 .projects-profile-submit{
@@ -53,9 +56,10 @@
 
 /* blog starts here */
 .blogs-all-sections{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 25px;
+    margin-top: 40px;
   
 }
 .blogs-pictures img{
@@ -100,3 +104,36 @@
     font-weight: 400;
 }
 /* blog ends here */
+
+@media only screen and (min-width: 200px) and (max-width: 576px){
+    .section-title {
+        padding-top: 25px;
+       font-size: 18px;
+    }
+
+    /* expertise content starts here */
+    .design-profile-submit{
+        padding-top: 20px;
+        gap: 40px;
+    }
+    .design-profile-submit img{
+        padding-bottom: 20px;
+    }
+    /* expertise content ends here */
+
+    /* my-projects starts here */
+    .projects-button button {
+        padding: 10px 15px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-size: 17px;
+    }
+    /* my-projects nds here */
+
+    /* my-blogs starts here */
+    .logo-title{
+        font-size: 15px;
+        margin: 10px 0;
+    }
+    /* my-blogs ends here */
+}
