@@ -22,11 +22,9 @@
 .banner-title h1{
     margin: 40px 0;
     font-size: 108px;
-    font-weight: bolder;
 }
 .banner-desc{
     margin: 40px 0;
-    font-weight: bolder;
     padding-top: 30px;
     font-size: 15px;
 }
@@ -85,24 +83,58 @@
 }
 
 @media only screen and (min-width: 200px) and (max-width: 576px){
-    .container{
-        padding: 0 5px;
+    .header-container{
+        padding: 0 15px;
+        height: 100%;
     }
-    .nav h3{
-       font-size: 16px;
+    .nav{
+        width: 60%;
+        padding-top: 10px;
+        justify-content: start;
+        gap: 10px;
+        font-size: 16px;
     }
-    .right-icon-bar {
-        width: 40px;
-        height: 40px;
+    .banner-container{
+        width: 60%;
+    }
+    .right-icon-bar{
+        width: 20px;
+        height: 24px;
         background-color: black;
     }
+    .right-icon-bar img{
+        width: 21px;
+    }
     .banner-title h1{
-       font-size: 35px;
-       margin: 30px 0;
+       font-size: 20px;
+       margin: 15px 0 10px 0;
+  
     }
     .banner-desc{
-       font-size: 10px;
-       padding: 0;
+       font-size: 14px;
+       padding-top: 0;
+       margin: 0;
+    }
+    .banner-profile-container{
+        margin-top: 15px;
+    }
+    .checkhero-container{
+        margin-bottom: 0px;
+    }
+    .checkicon-set h1{
+        font-size: 1rem;
+        padding-right: 5px;
+    }
+    #heroicon-arrow{
+        width: 20px;
+        padding-top: 5px;
+    }
+    .profile-submit{
+        width: 70%;
+        height: 120px;
+        }
+    .profile-submit img {
+        height: 120px;
     }
     .counting-container{
        flex-direction: column;
@@ -111,17 +143,16 @@
     display: flex;
     flex-direction: column;
    }
-   .checkicon-set h1{
-    font-size: 1.7rem;
-   }
-   .profile-submit{
-    width: 80%;
-    height: 150px;
-    }
     .follower{
-        font-size: 3rem;
+        font-size: 2.8rem;
     }
     .text-project {
-        font-size: 18px;
+        font-size: 16px;
+    }
+    .main-container {
+        margin-top: 0px;
+    }
+    .expertise-content{
+        padding: 0 15px;
     }
  }

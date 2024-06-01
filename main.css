@@ -105,16 +105,76 @@
 }
 /* blog ends here */
 
+/* testimonial starts here */
+.sections-of-testimonial{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.testimonial-header h1{
+    font-size: 45px;
+    font-weight: 900;
+    background-image: linear-gradient(45deg, #b70df9, #743bf3);
+    background-clip: text;
+    color: transparent;
+}
+.testimonial-title{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.testimonial-cards{
+    margin-top: 40px;
+    display: flex;
+    gap: 15px;
+}
+.left-top-caard{
+    width: 50%;
+}
+.left-brief-top{
+    background-color: rgb(48, 12, 85);
+    display: flex;
+}
+.left-brief-bottom{
+    display: flex;
+    background-color: rgb(48, 12, 85);
+    margin-top: 15px;
+} 
+
+.test-card-head{
+    margin-top: 50px;
+    font-size: 2.2rem;
+    padding: 15px;
+}
+.test-card-desc{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    padding: 15px;
+} 
+.right-side-card{
+    width: 50%;
+    background-color: rgb(48, 12, 85);
+}  
+/* testimonial section ends */
+
 @media only screen and (min-width: 200px) and (max-width: 576px){
     .section-title {
-        padding-top: 25px;
+       padding-top: 25px;
        font-size: 18px;
     }
 
     /* expertise content starts here */
+    .main-container {
+        margin-top: 0px;
+    }
+    .expertise-content{
+        padding: 0 15px;
+        width: 100%;
+    }
     .design-profile-submit{
         padding-top: 20px;
-        gap: 40px;
+        gap: 10px;
     }
     .design-profile-submit img{
         padding-bottom: 20px;
@@ -122,6 +182,13 @@
     /* expertise content ends here */
 
     /* my-projects starts here */
+    .my-projects{
+        padding: 0 15px;
+        width: 75%;
+    }
+    .projects-profile-submit{
+        gap: 10px;
+    }
     .projects-button button {
         padding: 10px 15px;
         margin-top: 25px;
@@ -136,4 +203,23 @@
         margin: 10px 0;
     }
     /* my-blogs ends here */
+
+    /* testiominal starts */
+    .testimonial-cards{
+        padding: 0;
+        flex-direction: column;
+    }
+    .testi-img{
+        width: 162px;
+    }
+    .test-card-head {
+        margin-top: 0;
+        font-size: 1rem;
+    }
+    .test-card-desc {
+        margin-top: 0;
+        font-size: 14px;
+    }
+        /* margin-top: 50px;
+    /* testiominal ends */
 }

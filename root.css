@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap');
 
+
 :root{
     --font-primary-color: #feffff;
     --background-color: #0c0418;
@@ -19,6 +20,6 @@
     margin: 0 auto;
 }
 
-.header-container, .expertise-content, .my-projects, .my-blogs-content{
+.header-container, .expertise-content, .my-projects, .my-blogs-content, .sections-of-testimonial{
 padding: 0 40px;
 }
