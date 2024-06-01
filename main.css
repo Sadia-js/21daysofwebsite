@@ -169,25 +169,19 @@
         margin-top: 0px;
     }
     .expertise-content{
-        padding: 0 15px;
-        width: 100%;
+        padding: 0;
     }
     .design-profile-submit{
-        padding-top: 20px;
-        gap: 10px;
-    }
-    .design-profile-submit img{
-        padding-bottom: 20px;
+        grid-template-columns: repeat(1, 1fr);
     }
     /* expertise content ends here */
 
     /* my-projects starts here */
     .my-projects{
-        padding: 0 15px;
-        width: 75%;
+        padding: 0;
     }
     .projects-profile-submit{
-        gap: 10px;
+        grid-template-columns: repeat(1, 1fr);
     }
     .projects-button button {
         padding: 10px 15px;
@@ -198,8 +192,11 @@
     /* my-projects nds here */
 
     /* my-blogs starts here */
+    .my-blogs-content{
+        padding: 0;
+    }
     .logo-title{
-        font-size: 15px;
+        font-size: 16px;
         margin: 10px 0;
     }
     /* my-blogs ends here */
@@ -220,6 +217,5 @@
         margin-top: 0;
         font-size: 14px;
     }
-        /* margin-top: 50px;
     /* testiominal ends */
 }
