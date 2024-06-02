@@ -91,14 +91,9 @@
         height: 100%;
     }
     .nav{
-        width: 60%;
         padding-top: 10px;
-        justify-content: start;
-        gap: 10px;
-        font-size: 16px;
-    }
-    .banner-container{
-        width: 60%;
+        gap: 0;
+        font-size: 20px;
     }
     .right-icon-bar{
         width: 20px;
@@ -109,12 +104,11 @@
         width: 21px;
     }
     .banner-title h1{
-       font-size: 20px;
+       font-size: 35px;
        margin: 15px 0 10px 0;
   
     }
     .banner-desc{
-       font-size: 14px;
        padding-top: 0;
        margin: 0;
     }
@@ -125,19 +119,19 @@
         margin-bottom: 0px;
     }
     .checkicon-set h1{
-        font-size: 1rem;
+        font-size: 25px;
         padding-right: 5px;
     }
     #heroicon-arrow{
-        width: 20px;
+        width: 28px;
         padding-top: 5px;
     }
     .profile-submit{
         width: 70%;
-        height: 120px;
+        height: 150px;
         }
     .profile-submit img {
-        height: 120px;
+        height: 150px;
     }
     .counting-container{
        flex-direction: column;
@@ -146,10 +140,4 @@
     display: flex;
     flex-direction: column;
    }
-    .follower{
-        font-size: 2.8rem;
-    }
-    .text-project {
-        font-size: 16px;
-    }
  }

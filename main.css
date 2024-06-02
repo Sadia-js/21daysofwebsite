@@ -129,39 +129,43 @@
     display: flex;
     gap: 15px;
 }
-.left-top-caard{
-    width: 50%;
+.left-top-card{
+    width: 65%;
 }
 .left-brief-top{
     background-color: rgb(48, 12, 85);
     display: flex;
+    height: 380px;
 }
 .left-brief-bottom{
+    height: 380px;
     display: flex;
     background-color: rgb(48, 12, 85);
     margin-top: 15px;
 } 
-
+.testi-img{
+    height: 100%;
+}
 .test-card-head{
-    margin-top: 50px;
     font-size: 2.2rem;
-    padding: 15px;
+    padding: 60px 15px 0 15px;
 }
 .test-card-desc{
-    margin-top: 10px;
     font-size: 1.2rem;
-    padding: 15px;
+    padding: 20px 15px 0 15px;
 } 
 .right-side-card{
-    width: 50%;
+    width: 35%;
     background-color: rgb(48, 12, 85);
 }  
+.right-card-img{
+    width: 100%;
+}
 /* testimonial section ends */
 
 @media only screen and (min-width: 200px) and (max-width: 576px){
     .section-title {
        padding-top: 25px;
-       font-size: 18px;
     }
 
     /* expertise content starts here */
@@ -195,27 +199,38 @@
     .my-blogs-content{
         padding: 0;
     }
+    .blogs-all-sections {
+        grid-template-columns: repeat(1, 1fr);
+    }
     .logo-title{
-        font-size: 16px;
         margin: 10px 0;
     }
     /* my-blogs ends here */
 
     /* testiominal starts */
+    .sections-of-testimonial{
+        padding: 0;
+    }
     .testimonial-cards{
         padding: 0;
         flex-direction: column;
-    }
-    .testi-img{
-        width: 162px;
+        gap: 15px;
     }
     .test-card-head {
-        margin-top: 0;
-        font-size: 1rem;
+        font-size: 30px;
     }
     .test-card-desc {
-        margin-top: 0;
-        font-size: 14px;
+        font-size: 16px;
+    }
+    .left-top-card{
+        width: 100%;
+    }
+    .right-side-card{
+        width: 100%;
+        display: flex;
+    }
+    .right-card-img{
+
     }
     /* testiominal ends */
 }
