@@ -42,6 +42,12 @@ input{
     background-color: transparent;
     border: 1px solid white;
     color: white;
+    transform: all 1s;
+   cursor: pointer;
+}
+.send-button:hover{
+    background-color: #4f46f4;
+    border: 2px solid navy;
 }
 /* left-side-footer ends here */
 
@@ -55,14 +61,22 @@ input{
     margin-top: 40px;
 }
 .for-contact p{
-    font-family: sans-serif;
     padding-top: 20px;
     font-size: 1rem;
+    font-family: sans-serif;
+}
+.for-contact a{
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
 }
 .social-link{
     margin-top: 40px;
     display: flex;
     gap: 25px;
+}
+.social-link a{
+    color: white;
 }
 .footer-final-part{
     margin-top: 40px;
@@ -83,6 +97,9 @@ input{
     }
     input{        
         width: 90%;
+    }
+    ::placeholder{
+        font-size: 15px;
     }
     .for-contact p{
         font-size: 14px;
