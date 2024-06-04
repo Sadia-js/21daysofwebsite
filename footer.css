@@ -51,7 +51,7 @@ input{
     margin-top: 20px;
     margin-left: 70px;
 }
-.for-contact {
+.for-contact{
     margin-top: 40px;
 }
 .for-contact p{
@@ -81,10 +81,13 @@ input{
     footer{
         width: 100%;
     }
+    input{        
+        width: 90%;
+    }
     .for-contact p{
         font-size: 14px;
     }
     .right-side-footer{
-        margin-left: 0;
+        margin-left: 20px;
     }
 }
