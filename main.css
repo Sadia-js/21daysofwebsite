@@ -1,7 +1,5 @@
 .main-container{
     margin-top: 40px;
-    border-top: 1px solid var(--font-primary-color);
-    border-bottom: 1px solid var(--font-primary-color);
 }
 .section-title{
     padding-top: 50px;
@@ -9,22 +7,17 @@
     text-transform: uppercase;
 }
 
-/* projects starts here */
-.expertise-content{
-    background-image: url(./assests/media/background\ 2.png);
-    background-repeat: no-repeat;
-    background-position: top bottom;
-}
-
-.design-profile-submit{
-    padding-top: 40px;
-    display:grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 0 200px;
-}
-.design-profile-submit img{
+/* my-expertise starts here */
+.expertise-container{
+    background: linear-gradient(#ca38ff2e, #3015fa39);
     width: 100%;
-    padding-bottom: 60px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}  
+.image-positioning{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
 }
 /* my-expertise ends here */
 
@@ -107,7 +100,7 @@
 
 /* testimonial starts here */
 .sections-of-testimonial{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -116,7 +109,7 @@
 .testimonial-header h1{
     font-size: 45px;
     font-weight: 900;
-    background-image: linear-gradient(45deg, #b70df9, #743bf3);
+    background: linear-gradient(45deg, #b70df9, #743bf3);
     background-clip: text;
     color: transparent;
 }
@@ -135,10 +128,8 @@
 .left-brief-top{
     background-color: rgb(48, 12, 85);
     display: flex;
-    height: 380px;
 }
 .left-brief-bottom{
-    height: 380px;
     display: flex;
     background-color: rgb(48, 12, 85);
     margin-top: 15px;
@@ -148,7 +139,7 @@
 }
 .test-card-head{
     font-size: 2.2rem;
-    padding: 60px 15px 0 15px;
+    padding: 40px 15px 0 15px;
 }
 .test-card-desc{
     font-size: 1.2rem;
@@ -168,69 +159,74 @@
        padding-top: 25px;
     }
 
-    /* expertise content starts here */
-    .main-container {
-        margin-top: 0px;
+    /* expertise container starts here */
+    .image-positioning{
+        flex-direction: column;
+        gap: 25px;
+        margin: 20px 0;
     }
-    .expertise-content{
-        padding: 0;
-    }
-    .design-profile-submit{
-        grid-template-columns: repeat(1, 1fr);
-    }
-    /* expertise content ends here */
+    /* expertise container ends here */
 
     /* my-projects starts here */
-    .my-projects{
-        padding: 0;
-    }
     .projects-profile-submit{
         grid-template-columns: repeat(1, 1fr);
     }
     .projects-button button {
         padding: 10px 15px;
-        margin-top: 25px;
-        margin-bottom: 25px;
-        font-size: 17px;
+        font-size: 17px;      
     }
-    /* my-projects nds here */
+    /* my-projects ends here */
 
     /* my-blogs starts here */
-    .my-blogs-content{
-        padding: 0;
-    }
     .blogs-all-sections {
         grid-template-columns: repeat(1, 1fr);
     }
     .logo-title{
         margin: 10px 0;
     }
+    .logo-title h1{
+        font-size: 23px;
+    }
     /* my-blogs ends here */
 
     /* testiominal starts */
     .sections-of-testimonial{
-        padding: 0;
+        margin-top: 40px;
+    }
+    .testimonial-header h1{
+        font-size: 30px;
+    }
+    .testimonial-title{
+        font-size: 15px;
     }
     .testimonial-cards{
-        padding: 0;
         flex-direction: column;
         gap: 15px;
     }
     .test-card-head {
         font-size: 30px;
+        padding-top: 20px;
     }
     .test-card-desc {
-        font-size: 16px;
+        font-size: 20px;
+        padding: 10px 15px 20px 15px;
     }
     .left-top-card{
         width: 100%;
     }
-    .right-side-card{
+    .testi-img{
         width: 100%;
-        display: flex;
     }
-    .right-card-img{
+    .left-brief-top{
+        flex-direction: column;
+    }
+    .left-brief-bottom {
+        flex-direction: column;
 
     }
+    .right-side-card{
+        width: 100%;
+    }
+   
     /* testiominal ends */
 }

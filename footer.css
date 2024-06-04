@@ -1,0 +1,90 @@
+footer{
+    background-color: rgb(93, 24, 158);
+
+    margin-top: 50px;
+    padding: 20px 40px;
+}
+.parts-of-footer{
+    display: flex;
+}
+/* left-side-footer starts here */
+.left-side-footer{
+    width: 50%;
+   margin-top: 20px;
+}
+.title-of-footer h1{
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+input{
+    margin-top: 50px;
+    width: 80%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    font-family: sans-serif;
+    padding: 10px;
+}
+::placeholder{
+    font-size: 20px;
+    color: var(--font-primary-color);
+}
+.text-message{
+    padding-top: 40px;
+    background-color: transparent;   
+}
+.send-button{
+    margin-top: 30px;
+    width: 80%;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: 900;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+/* left-side-footer ends here */
+
+/* right-side-footer starts here */
+.right-side-footer{
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.for-contact {
+    margin-top: 40px;
+}
+.for-contact p{
+    font-family: sans-serif;
+    padding-top: 20px;
+    font-size: 1rem;
+}
+.social-link{
+    margin-top: 40px;
+    display: flex;
+    gap: 25px;
+}
+.footer-final-part{
+    margin-top: 40px;
+}
+.footer-reserved{
+    padding: 30px; 
+    text-align: center;
+}
+.footer-reserved p{
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    
+}
+/* right-side-footer ends here */
+@media only screen and (min-width: 200px) and (max-width: 576px){
+    footer{
+        width: 100%;
+    }
+    .for-contact p{
+        font-size: 14px;
+    }
+    .right-side-footer{
+        margin-left: 0;
+    }
+}

@@ -22,5 +22,8 @@
 }
 
 .header-container, .expertise-content, .my-projects, .my-blogs-content, .sections-of-testimonial{
-padding: 0 40px;
+    padding: 0 40px;
+}
+.photo-design{
+    padding: 0 40px;
 }

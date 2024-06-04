@@ -83,11 +83,7 @@
 }
 
 @media only screen and (min-width: 200px) and (max-width: 576px){
-    /* .container{
-        text-align: center;
-    } */
     .header-container{
-        padding: 0;
         height: 100%;
     }
     .nav{
@@ -109,11 +105,11 @@
   
     }
     .banner-desc{
-       padding-top: 0;
-       margin: 0;
-    }
+        padding-top: 10px;
+        margin: 5px;
+     }
     .banner-profile-container{
-        margin-top: 15px;
+        margin-top: 20px;
     }
     .checkhero-container{
         margin-bottom: 0px;
